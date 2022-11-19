@@ -1,0 +1,185 @@
+/* Global styles
+-----------------------------------------*/
+
+html {
+    background-color:black;
+    padding-left:25px;
+    padding-right:25px;
+    font-family:Arial, sans-serif;
+}
+
+header {
+    text-align:left;
+  }
+
+main {
+    grid:10px;
+    width:1310px;
+    margin:0 auto;
+    padding:16px;
+    background-color:#ffffff;
+    display: grid;
+  }
+
+header, footer {
+  background-color:#000000;
+  color:#ffffff;
+  border:0px solid #000000;
+}
+
+nav a, nav a:visited, nav a:link {
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#ffffff;
+    font-weight:bold;
+    padding:10px;
+    width:
+  }
+
+
+nav a {
+    text-align: right;
+}
+
+a {
+    color:#FFEBEE;
+}
+
+/* TK Photography
+-----------------------------------------*/
+h1 {
+    color:#007D7B;
+    float:left;
+    padding-left: 40px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
+nav {
+    margin-bottom: 0px;
+    float:right;
+    margin:0;
+    padding-bottom: 0px;
+}
+nav li {
+    list-style:none;
+    display:inline-block;
+    margin:0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    text-transform:uppercase;
+}
+
+nav a:hover {
+    background-color:#000000;
+    color:#00707B;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+}
+
+.hello {
+    float:right;
+    padding: 0px;
+    width: 420px;
+    text-align:right;
+    font-size:20px;
+}
+
+#image {
+    float:left;
+    border: 0px;
+    margin: 0;
+}
+
+/* Gallery
+-----------------------------------------*/
+.about {
+    float:right;
+    padding-left: 10px;
+    margin-left: 0px;
+    text-transform:uppercase;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.gallery {
+    text-transform:uppercase;
+    font-size: 40px;
+}
+
+.img {
+    float:none;
+    width:300px;
+    margin:0px;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color:black;
+    z-index: 2;
+}
+
+
+
+/* Contact
+-----------------------------------------*/
+
+h3 {
+    font-size:40px;
+    color:#FFFFFF;
+    float:center;
+    padding-left: 600px;
+    text-transform:uppercase;
+    margin:2px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.form {
+    color:#FFFFFF;
+    float:center;
+    padding-left: 475px;
+    margin:2px;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size: 20px;
+}
+
+.white {
+    color: #FFFFFF;
+    float: center;
+    padding-left: 350px;
+    list-style: none;
+    width: 600px;
+
+}
+ 
+.button {
+    float:none;
+    padding-left: 325px;
+
+}
+
+button {
+    color: #FFFFFF;
+}
+
+/* Footer
+-----------------------------------------*/
+footer {
+    float:none;
+    padding-left: 575px;
+    margin-top: 20px;
+    text-transform:uppercase;
+}
